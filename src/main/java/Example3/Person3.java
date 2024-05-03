@@ -5,7 +5,9 @@ public class Person3 {
     private int age;
     private static int personCounter;
 
-    public Person3() {}
+    public Person3() {
+        increasePersonCounter();
+    }
 
     public Person3(String name, int age) {
         this.name = name;
